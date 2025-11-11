@@ -45,6 +45,12 @@
   .about-containers {
     margin-top: 0;
   }
+
+  /* Projects: 2 columns on medium screens */
+  #projects .about-containers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -105,6 +111,13 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  /* Projects: stack to 1 column on small screens */
+  #projects .about-containers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   footer p {

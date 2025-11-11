@@ -23,6 +23,12 @@ const ProjectSection = ({ showArrow = true }) => {
       githubUrl: 'https://github.com/',
       demoUrl: 'https://github.com/',
     },
+    {
+      title: 'Yourtodo',
+      image: './assets/project-4.png',
+      githubUrl: 'https://github.com/',
+      demoUrl: 'https://yourtodo-six.vercel.app/',
+    },
   ];
 
   return (
